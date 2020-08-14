@@ -409,7 +409,7 @@ export default {
                 type:'warning'
             }).catch(err=>err)
             //用户点击确认confirmResult为'confirm'，点击取消为catch错误提示'cancle'
-            if(confirmResult!='confirm') return this.$message.info('已经取消删除操作')
+            if(confirmResult!=='confirm') return this.$message.info('已经取消删除操作')
 
             //发送请求根据id完成删除操作
             const {data:res}=await this.$http.delete('users/'+id)
