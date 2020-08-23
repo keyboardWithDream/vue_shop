@@ -27,9 +27,10 @@ body,
     margin-top: 15px;
 }
 
-.el-cascader {
+
+/* .el-cascader {
     width: 630px;
-}
+} */
 
 .el-cascader-menu {
     height: 200px !important;
@@ -45,4 +46,16 @@ body,
 
 .input-new-tag {
     width: 120px;
+}
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    height: 300px !important;
 }
